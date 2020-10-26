@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 venv/
+chatbotAPI/model/chatbot_model.7z
+chatbotAPI/chatbot_model
