@@ -34,7 +34,7 @@ python manage.py runserver
 ### To do
 
 - [ ] Nice UI and works on the front-end
-- [*] Instructions on how to use any desired chatbot model and add a default one
+- [x] Instructions on how to use any desired chatbot model and add a default one
 - [ ] Add a database and store the chats
 - [ ] Having the ability to train the chatbot based on the new data
 - [ ] Deploying it
