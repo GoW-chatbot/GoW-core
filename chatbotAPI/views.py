@@ -1,3 +1,8 @@
+'''
+Got the solution from
+https://medium.com/datadriveninvestor/deploying-ml-models-using-django-rest-api-part-2-84cea50b3c83
+'''
+
 
 #Importing necessary libraries for making the API
 from rest_framework.decorators import api_view
@@ -18,6 +23,8 @@ def index_page(request):
     }
     return Response(return_data)
 
+# This is where you get the answers, you make a POST request and then get the answer
+# of thr question as JSON(in the 'question' key)
 @api_view(["POST"])
 def predict_answer(request):
     try:
